@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
     --primary-color:#2E2F42;
-    --secondary-color:#000000;
+    --secondary-color:#F4F4FD;
 
     --font-family: "Roboto , Raleway; "
 }
@@ -72,6 +72,9 @@ body {
   
   .first-button:focus {
     background-color: #404bbf;
+  }
+  .advan {
+    background-color: var(--secondary-color);
   }
   .team {
     background-color: #f4f4fd;
