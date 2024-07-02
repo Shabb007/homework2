@@ -24,17 +24,22 @@ body {
     color:#2e2f42;
   }
   .header {
-    color: #404bbf;
+    color: #2e2f42;
     font-weight: 500;
-    letter-spacing: 0.02em;
   }
-
+.header-hover:hover{
+  color: #404bbf;
+}
+.header-hover:focus {
+  color: #404bbf;
+}
 .address {
   font-style: normal;
-  color: #2e2f42;
+  font-weight: 400;
+  color: #434455;
 }
 .address2 {
-    color: #2e2f42;
+    color: #434455;
   }
 
 .hero {
