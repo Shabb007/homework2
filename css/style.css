@@ -3,8 +3,9 @@
 :root {
     --primary-color:#2E2F42;
     --secondary-color:#F4F4FD;
+    --white-color: #fff;
 
-    --font-family: "Roboto , Raleway; "
+    --font-family: 'Roboto', sans-serif;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -45,8 +46,11 @@ body {
   }
 
 .hero {
-    background-color: #2E2F42;
-    color: #ffffff;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    line-height: 1.07;
+    font-size: 56;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 .hero header {
@@ -55,18 +59,19 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.07;
   text-align: center;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .first-button {
     font-family: var(--font-family);
+    color: white;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.04em;
     line-height: 1.5;
     text-align: left;
     background-color: #4d5ae5;
-    color: white;
+    
     cursor: pointer;
     
   }
