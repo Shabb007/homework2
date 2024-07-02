@@ -33,12 +33,12 @@ body {
 .header-hover:focus {
   color: #404bbf;
 }
-.address {
+.first-address {
   font-style: normal;
   font-weight: 400;
   color: #434455;
 }
-.address2 {
+.second-address2 {
     color: #434455;
   }
 
