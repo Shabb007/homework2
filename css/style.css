@@ -47,19 +47,17 @@ body {
 
 .hero {
     background-color: var(--primary-color);
-    color: var(--white-color);
+    font-size: 56px;
     line-height: 1.07;
-    font-size: 56;
-    letter-spacing: 0.02em;
     text-align: center;
-}
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+    }
 .hero header {
-  font-weight: 700;
   font-size: 56px;
   letter-spacing: 0.02em;
   line-height: 1.07;
-  text-align: center;
-  color: var(--white-color);
+  letter-spacing: 0.02em;
 }
 
 .first-button {
