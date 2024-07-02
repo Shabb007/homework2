@@ -12,19 +12,16 @@ body {
     background-color: #ffffff;
 }
 .logo {
-    color: #404bbf;
+    color: #4d5ae5;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.15;
-    letter-spacing: 0.02em;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
   }
   .span-logo {
-    color: #404bbf;
-    line-height: 1.15;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
+    color:#2e2f42;
   }
   .header {
     color: #404bbf;
