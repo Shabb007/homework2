@@ -96,17 +96,15 @@ body {
   color: #434455;
 }
 .section-team {
-  color: #2e2f42;
   background-color: #f4f4fd;   
 }
 .heading-our-team {
-  font-weight: 700;
   font-size: 36px;
-  letter-spacing: 0.02em;
   line-height: 1.11;
   text-align: center;
-  color: #2e2f42;
-  text-transform: capitalize;    
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;  
 }
 .team-list {
    background-color: white;
@@ -115,16 +113,17 @@ body {
 .heading-list-team {
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   color: var(--primary-color);
   letter-spacing: 0.02em;
-  text-align: center;    
+      
 }
 
 .team-paragraf {
   font-size: 16px;
   line-height: 1.5;
-  
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .section-port {
   font-weight: 500;
