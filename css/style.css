@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
 
 :root {
     --primary-color: #2E2F42;
@@ -9,103 +8,127 @@
 }
 
 body {
-    background-color: var(--white-color);
     font-family: var(--font-family);
     color: #434455;
+    background-color: var(--white-color);
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em; 
+    letter-spacing:2%;   
 }
 
 .logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: bold;
     color: #4d5ae5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 18px;
-    text-transform: uppercase;
     line-height: 1.17;
-    letter-spacing: 0.03em;   
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
+
 .span-logo {
     color: var(--primary-color);
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
-
-.header {
-    color: var(--primary-color);
-    font-weight: 500;
+.header-link {
+  color: #2e2f42;
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
-
-.header-hover:hover,
-.header-hover:focus {
-    color: #404bbf;
+.header-link:hover {
+  color: #404bbf;
 }
-
+.header-link:focus{
+  color: #404bbf;
+}
 .first-address {
     font-style: normal;
-}
-
-.second-address2 {
-    font-family: var(--font-family);
-    color: #404bbf;
-    font-size: inherit;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #2e2f42;
-    text-decoration: underline;
 }
-
+.second-address2 {
+    color: #2e2f42;
+}
+.second-address2:hover {
+  color: #404bbf;
+}
+.second-address2:focus {
+  color: #404bbf;
+}
 .hero {
     background-color: var(--primary-color);
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--white-color);
-}
-
-.hero header {
-    font-size: 56px;
-    letter-spacing: 0.02em;
-    line-height: 1.07;
-}
-
-.first-button {
     font-family: var(--font-family);
+}
+.hero-header {
     color: var(--white-color);
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.07;
+    letter-spacing: 0.02em;   
+}
+.first-button {
+    cursor: pointer;
     font-weight: 500;
     font-size: 16px;
-    letter-spacing: 0.04em;
-    line-height: 1.5;
-    text-align: left;
     background-color: #4d5ae5;
-    cursor: pointer;
+    color: var(--white-color);
+    line-height: 1.5;
+    letter-spacing: 0.04em;   
 }
-
-.first-button:hover,
+.first-button:hover {
+  background-color: #404bbf;
+}
 .first-button:focus {
     background-color: #404bbf;
 }
 
-.advan {
-    background-color: var(--secondary-color);
+.advan-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-
-.team {
-    background-color: var(--secondary-color);
+.advan-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
-
-.team2 {
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    letter-spacing: 0.02em;
-    line-height: 1.11;
-    color: var(--primary-color);
-    text-transform: capitalize;
+.section-team {
+  color: #2e2f42;
+  background-color: #f4f4fd;   
 }
-
+.h2-team2 {
+  text-align: center;
+  color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;    
+}
 .team-list {
-    background-color: var(--white-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  background-color: white;
+  color: #2e2f42;  
+}
+.h3-team {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.team-paragraf {
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .portfolio {
@@ -115,6 +138,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--primary-color);
+    margin: 50px 0;
 }
 
 .portfolio-list {
@@ -135,6 +159,8 @@ body {
 
 .footer {
     background-color: var(--primary-color);
+    padding: 20px;
+    
 }
 
 .footer-logo {
@@ -158,4 +184,5 @@ body {
     letter-spacing: 0.02em;
     font-weight: 400;
     color: var(--secondary-color);
+   
 }
