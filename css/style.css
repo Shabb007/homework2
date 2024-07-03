@@ -15,15 +15,14 @@ body {
 }
 
 .logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
     color: #4d5ae5;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
     font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;   
 }
-
 .span-logo {
     color: var(--primary-color);
 }
@@ -40,14 +39,16 @@ body {
 
 .first-address {
     font-style: normal;
-    font-weight: 400;
-    line-height: 1.15;
-    letter-spacing: 0.02em;
-    color: #434455;
 }
 
 .second-address2 {
-    color: #434455;
+    font-family: inherit;
+    color: #404bbf;
+    font-size: inherit;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: underline;
 }
 
 .hero {
