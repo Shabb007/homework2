@@ -9,9 +9,12 @@
 }
 
 body {
+    background-color: var(--white-color);
     font-family: var(--font-family);
     color: #434455;
-    background-color: var(--white-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
 }
 
 .logo {
@@ -42,7 +45,7 @@ body {
 }
 
 .second-address2 {
-    font-family: inherit;
+    font-family: var(--font-family);
     color: #404bbf;
     font-size: inherit;
     line-height: 1.5;
