@@ -8,12 +8,10 @@
 }
 
 body {
-    font-family: var(--font-family);
-    color: #434455;
-    background-color: var(--white-color);
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing:2%;   
+  background-color: #ffffff;
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;  
 }
 
 .logo {
@@ -101,7 +99,7 @@ body {
   color: #2e2f42;
   background-color: #f4f4fd;   
 }
-.h2-team2 {
+.header-team2 {
   text-align: center;
   color: #2e2f42;
   font-size: 36px;
@@ -118,7 +116,7 @@ body {
   background-color: white;
   color: #2e2f42;  
 }
-.h3-team {
+.header3-team {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -147,9 +145,6 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-/*
-.port-li {
-*/
 
 .portfolio-list {
   font-weight: 500;
@@ -166,7 +161,7 @@ body {
 
 .footer {
     background-color: var(--primary-color);
-    padding: 20px;
+    
     
 }
 
