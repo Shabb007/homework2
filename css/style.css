@@ -43,6 +43,10 @@ body {
     font-style: normal;
     color: #2e2f42;
 }
+.first-address a {
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 .second-address {
     color: #2e2f42;
 }
