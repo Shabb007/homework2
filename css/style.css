@@ -43,13 +43,13 @@ body {
     font-style: normal;
     color: #2e2f42;
 }
-.second-address2 {
+.second-address {
     color: #2e2f42;
 }
-.second-address2:hover {
+.second-address:hover {
   color: #404bbf;
 }
-.second-address2:focus {
+.second-address:focus {
   color: #404bbf;
 }
 .hero {
